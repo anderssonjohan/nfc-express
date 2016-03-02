@@ -1,6 +1,6 @@
 # nfc-express
 
-Hack to expose UID events from libnfc as an SSE event stream.
+Hack to expose UID events from libnfc as stream of [server sent events](https://en.wikipedia.org/wiki/Server-sent_events).
 
 # prerequisites
 
@@ -62,3 +62,7 @@ data: {"uid":[252,172,15,111]}
 
 ...
 ```
+
+# demo
+
+See https://youtu.be/bPmuwzljdtU for a short video footage of when navigating to the event stream in a browser.
