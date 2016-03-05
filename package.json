@@ -4,7 +4,7 @@
   "description": "Hack to expose UID events from libnfc as an SSE event stream.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "LIBNFC_LOG_LEVEL=0 node index.js"
   },
   "repository":"https://github.com/anderssonjohan/nfc-express.git",
   "homepage":"https://github.com/anderssonjohan/nfc-express",
